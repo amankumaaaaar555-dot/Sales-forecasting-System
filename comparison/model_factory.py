@@ -3,77 +3,94 @@ model_factory.py
 
 Factory for creating machine learning models.
 
+Responsibilities
+----------------
+- Create machine learning models
+- Return available model names
+- Centralize model configuration
+
 Author: Aman Kumar
 """
 
 from sklearn.linear_model import LinearRegression
+
 from sklearn.ensemble import (
     RandomForestRegressor,
     GradientBoostingRegressor,
     ExtraTreesRegressor
 )
 
-
-# ==========================================================
-# Available Models
-# ==========================================================
-
-AVAILABLE_MODELS = {
-
-    "Linear Regression": LinearRegression(),
-
-    "Random Forest": RandomForestRegressor(
-        n_estimators=100,
-        random_state=42
-    ),
-
-    "Gradient Boosting": GradientBoostingRegressor(
-        random_state=42
-    ),
-
-    "Extra Trees": ExtraTreesRegressor(
-        n_estimators=100,
-        random_state=42
-    )
-
-}
+from config import RANDOM_STATE
 
 
 # ==========================================================
 # Model Factory
 # ==========================================================
 
-def get_model(model_name):
+def get_model(model_name: str):
     """
-    Return a machine learning model.
+    Return a fresh machine learning model instance.
 
     Parameters
     ----------
     model_name : str
+        Name of the machine learning model.
 
     Returns
     -------
-    sklearn model
+    sklearn.base.RegressorMixin
     """
 
-    if model_name not in AVAILABLE_MODELS:
+    models = {
+
+        "Linear Regression": LinearRegression(),
+
+        "Random Forest": RandomForestRegressor(
+            n_estimators=100,
+            random_state=RANDOM_STATE
+        ),
+
+        "Gradient Boosting": GradientBoostingRegressor(
+            random_state=RANDOM_STATE
+        ),
+
+        "Extra Trees": ExtraTreesRegressor(
+            n_estimators=100,
+            random_state=RANDOM_STATE
+        )
+
+    }
+
+    if model_name not in models:
 
         raise ValueError(
             f"Unsupported model: {model_name}"
         )
 
-    return AVAILABLE_MODELS[model_name]
+    return models[model_name]
 
 
 # ==========================================================
-# Available Model Names
+# Available Models
 # ==========================================================
 
 def get_available_models():
     """
-    Return list of available models.
+    Return the list of supported machine learning models.
     """
 
-    return list(
-        AVAILABLE_MODELS.keys()
+    return sorted(
+
+        [
+
+            "Linear Regression",
+
+            "Random Forest",
+
+            "Gradient Boosting",
+
+            "Extra Trees"
+
+        ]
+
     )

@@ -25,6 +25,7 @@ from components.prediction_panel import show_prediction_panel
 
 from dashboard.metrics_panel import show_metrics_panel
 from dashboard.charts_panel import show_charts_panel
+from components.download_panel import show_download_panel
 
 
 # ==========================================================
@@ -97,3 +98,6 @@ def run_forecast_pipeline(
     show_prediction_panel(
         forecast_df
     )
+    show_download_panel(
+    forecast_df=forecast_df
+)

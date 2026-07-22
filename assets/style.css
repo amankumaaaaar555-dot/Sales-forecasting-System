@@ -1,0 +1,43 @@
+/* Main App */
+.main {
+    background-color: #F8FAFC;
+}
+
+/* Title */
+h1 {
+    color: #1E3A8A;
+    text-align: center;
+    font-weight: 700;
+}
+
+/* Section Headers */
+h2, h3 {
+    color: #2563EB;
+}
+
+/* Metric Cards */
+div[data-testid="metric-container"] {
+    background: white;
+    border-radius: 12px;
+    padding: 15px;
+    border: 1px solid #E5E7EB;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* Buttons */
+.stButton > button {
+    width: 100%;
+    border-radius: 8px;
+    background-color: #2563EB;
+    color: white;
+    font-weight: bold;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background-color: #111827;
+}
+
+section[data-testid="stSidebar"] * {
+    color: white;
+}

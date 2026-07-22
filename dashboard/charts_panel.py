@@ -1,14 +1,7 @@
 """
 charts_panel.py
 
-Dashboard Charts Panel
-
-Responsibilities
-----------------
-- Sales Trend
-- Store Performance
-- Correlation Heatmap
-- Forecast Chart
+Enterprise Dashboard Charts
 
 Author: Aman Kumar
 """
@@ -16,100 +9,91 @@ Author: Aman Kumar
 import streamlit as st
 import plotly.express as px
 
-from config import (
-    DATE_COLUMN,
-    TARGET_COLUMN,
-    ID_COLUMNS
-)
+from config import DATE_COLUMN
 
 
-# ==========================================================
-# Dashboard Charts
-# ==========================================================
+def show_charts_panel(df, forecast_df=None):
 
-def show_charts_panel(
-    df,
-    forecast_df=None
-):
-    """
-    Display dashboard charts.
-
-    Parameters
-    ----------
-    df : pd.DataFrame
-
-    forecast_df : pd.DataFrame, optional
-    """
-
-    st.header("📈 Dashboard Charts")
-
-    # ======================================================
-    # Sales Trend
-    # ======================================================
+    st.header("📈 Enterprise Dashboard")
 
     col1, col2 = st.columns(2)
 
     with col1:
 
-        st.subheader("Sales Trend")
-
-        trend = px.line(
-            df,
-            x=DATE_COLUMN,
-            y=TARGET_COLUMN,
-            title="Weekly Sales Trend"
-        )
-
-        st.plotly_chart(
-            trend,
-            use_container_width=True
-        )
-
-    # ======================================================
-    # Store Performance
-    # ======================================================
-
-    with col2:
-
-        st.subheader("Store Performance")
-
-        store_sales = (
-            df.groupby(ID_COLUMNS[0])[TARGET_COLUMN]
-            .sum()
-            .reset_index()
-        )
-
-        store_chart = px.bar(
-            store_sales,
-            x=ID_COLUMNS[0],
-            y=TARGET_COLUMN,
-            title="Sales by Store"
-        )
-
-        st.plotly_chart(
-            store_chart,
-            use_container_width=True
-        )
-
-    st.divider()
-
-    # ======================================================
-    # Forecast Chart
-    # ======================================================
-
-    if forecast_df is not None:
-
-        st.subheader("Forecast Trend")
+        st.subheader("Enterprise Revenue Trend")
 
         fig = px.line(
-            forecast_df,
+            df,
             x=DATE_COLUMN,
-            y="Predicted_Sales",
-            markers=True,
-            title="Forecasted Sales"
+            y="Total_Amount",
+            title="Revenue Over Time"
         )
 
         st.plotly_chart(
             fig,
             use_container_width=True
+        )
+
+    with col2:
+
+        st.subheader("Regional Performance")
+
+        region_sales = (
+
+            df.groupby("Region_Name")["Total_Amount"]
+
+            .sum()
+
+            .reset_index()
+
+        )
+
+        fig = px.bar(
+
+            region_sales,
+
+            x="Region_Name",
+
+            y="Total_Amount",
+
+            color="Region_Name",
+
+            title="Revenue by Region"
+
+        )
+
+        st.plotly_chart(
+
+            fig,
+
+            use_container_width=True
+
+        )
+
+    st.divider()
+
+    if forecast_df is not None:
+
+        st.subheader("Future Revenue Forecast")
+
+        fig = px.line(
+
+            forecast_df,
+
+            x=DATE_COLUMN,
+
+            y="Predicted_Sales",
+
+            markers=True,
+
+            title="Forecasted Revenue"
+
+        )
+
+        st.plotly_chart(
+
+            fig,
+
+            use_container_width=True
+
         )

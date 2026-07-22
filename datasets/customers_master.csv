@@ -1,0 +1,501 @@
+Customer_ID,Customer_Name,Region_ID,Region_Name,Industry,Customer_Type,Status
+CUST0001,Reliance Industries Branch 24,REG004,Haryana,Energy,Silver,Active
+CUST0002,HPCL Branch 24,REG008,Madhya Pradesh,Oil & Gas,Platinum,Active
+CUST0003,ONGC Branch 19,REG018,Chhattisgarh,Mining,Silver,Active
+CUST0004,ONGC Branch 7,REG001,Rajasthan,Manufacturing,Platinum,Active
+CUST0005,Reliance Industries Branch 18,REG020,Goa,Manufacturing,Platinum,Active
+CUST0006,Adani Power Branch 8,REG018,Chhattisgarh,Mining,Platinum,Active
+CUST0007,Reliance Industries Branch 25,REG009,Tamil Nadu,Manufacturing,Platinum,Active
+CUST0008,Larsen & Toubro Branch 9,REG014,Odisha,Manufacturing,Silver,Active
+CUST0009,Bharat Petroleum Branch 3,REG011,Andhra Pradesh,Mining,Silver,Active
+CUST0010,Tata Steel Branch 20,REG012,Telangana,Energy,Silver,Active
+CUST0011,Schlumberger Branch 4,REG015,West Bengal,Mining,Silver,Active
+CUST0012,Oil India Branch 27,REG018,Chhattisgarh,Engineering,Gold,Active
+CUST0013,Cairn Oil Branch 23,REG019,Bihar,Oil & Gas,Silver,Active
+CUST0014,Oil India Branch 3,REG008,Madhya Pradesh,Manufacturing,Silver,Active
+CUST0015,GAIL India Branch 15,REG013,Kerala,Energy,Silver,Active
+CUST0016,Tata Steel Branch 7,REG012,Telangana,Energy,Platinum,Active
+CUST0017,Baker Hughes Branch 21,REG003,Delhi NCR,Manufacturing,Platinum,Active
+CUST0018,Vedanta Limited Branch 15,REG008,Madhya Pradesh,Mining,Gold,Active
+CUST0019,Essar Oil Branch 22,REG018,Chhattisgarh,Energy,Silver,Active
+CUST0020,Indian Oil Branch 26,REG008,Madhya Pradesh,Energy,Gold,Active
+CUST0021,ONGC Branch 7,REG009,Tamil Nadu,Engineering,Platinum,Active
+CUST0022,Cairn Oil Branch 21,REG011,Andhra Pradesh,Mining,Gold,Active
+CUST0023,HPCL Branch 9,REG015,West Bengal,Manufacturing,Silver,Active
+CUST0024,Schlumberger Branch 9,REG018,Chhattisgarh,Engineering,Gold,Active
+CUST0025,JSW Steel Branch 12,REG019,Bihar,Manufacturing,Silver,Active
+CUST0026,BHEL Branch 3,REG017,Jharkhand,Oil & Gas,Silver,Active
+CUST0027,Vedanta Limited Branch 26,REG005,Punjab,Mining,Platinum,Active
+CUST0028,JSW Steel Branch 13,REG003,Delhi NCR,Engineering,Gold,Active
+CUST0029,GAIL India Branch 18,REG017,Jharkhand,Oil & Gas,Platinum,Active
+CUST0030,Schlumberger Branch 25,REG004,Haryana,Energy,Platinum,Active
+CUST0031,Bharat Petroleum Branch 10,REG011,Andhra Pradesh,Mining,Silver,Active
+CUST0032,Reliance Industries Branch 24,REG015,West Bengal,Energy,Platinum,Active
+CUST0033,Engineers India Branch 30,REG006,Uttar Pradesh,Oil & Gas,Platinum,Active
+CUST0034,Engineers India Branch 20,REG010,Karnataka,Manufacturing,Silver,Active
+CUST0035,Vedanta Limited Branch 18,REG012,Telangana,Engineering,Silver,Active
+CUST0036,Larsen & Toubro Branch 16,REG020,Goa,Oil & Gas,Silver,Active
+CUST0037,Oil India Branch 8,REG012,Telangana,Oil & Gas,Silver,Active
+CUST0038,ONGC Branch 3,REG019,Bihar,Mining,Silver,Active
+CUST0039,HPCL Branch 5,REG018,Chhattisgarh,Mining,Platinum,Active
+CUST0040,GAIL India Branch 17,REG006,Uttar Pradesh,Engineering,Gold,Active
+CUST0041,Schlumberger Branch 25,REG007,Maharashtra,Manufacturing,Platinum,Active
+CUST0042,JSW Steel Branch 22,REG010,Karnataka,Energy,Gold,Active
+CUST0043,NTPC Branch 4,REG017,Jharkhand,Manufacturing,Silver,Active
+CUST0044,Larsen & Toubro Branch 1,REG003,Delhi NCR,Engineering,Platinum,Active
+CUST0045,Halliburton Branch 8,REG008,Madhya Pradesh,Oil & Gas,Silver,Active
+CUST0046,Essar Oil Branch 3,REG002,Gujarat,Oil & Gas,Gold,Active
+CUST0047,Engineers India Branch 8,REG003,Delhi NCR,Energy,Platinum,Active
+CUST0048,Cairn Oil Branch 18,REG016,Assam,Manufacturing,Platinum,Active
+CUST0049,Halliburton Branch 16,REG019,Bihar,Manufacturing,Gold,Active
+CUST0050,Cairn Oil Branch 4,REG014,Odisha,Oil & Gas,Platinum,Active
+CUST0051,Tata Steel Branch 14,REG014,Odisha,Mining,Gold,Active
+CUST0052,Bharat Petroleum Branch 2,REG002,Gujarat,Mining,Platinum,Active
+CUST0053,Bharat Petroleum Branch 8,REG011,Andhra Pradesh,Manufacturing,Silver,Active
+CUST0054,NTPC Branch 5,REG018,Chhattisgarh,Mining,Silver,Active
+CUST0055,NTPC Branch 8,REG009,Tamil Nadu,Oil & Gas,Gold,Active
+CUST0056,Bharat Petroleum Branch 2,REG018,Chhattisgarh,Engineering,Silver,Active
+CUST0057,Essar Oil Branch 6,REG003,Delhi NCR,Mining,Gold,Active
+CUST0058,Cairn Oil Branch 28,REG016,Assam,Mining,Silver,Active
+CUST0059,JSW Steel Branch 1,REG006,Uttar Pradesh,Mining,Gold,Active
+CUST0060,Oil India Branch 14,REG015,West Bengal,Engineering,Platinum,Active
+CUST0061,HPCL Branch 7,REG016,Assam,Energy,Silver,Active
+CUST0062,Halliburton Branch 24,REG002,Gujarat,Engineering,Silver,Active
+CUST0063,Indian Oil Branch 2,REG011,Andhra Pradesh,Engineering,Gold,Active
+CUST0064,Engineers India Branch 6,REG017,Jharkhand,Oil & Gas,Platinum,Active
+CUST0065,Vedanta Limited Branch 3,REG003,Delhi NCR,Engineering,Silver,Active
+CUST0066,JSW Steel Branch 4,REG008,Madhya Pradesh,Engineering,Silver,Active
+CUST0067,Baker Hughes Branch 2,REG019,Bihar,Engineering,Silver,Active
+CUST0068,Halliburton Branch 19,REG014,Odisha,Engineering,Gold,Active
+CUST0069,Cairn Oil Branch 22,REG009,Tamil Nadu,Energy,Silver,Active
+CUST0070,JSW Steel Branch 5,REG009,Tamil Nadu,Energy,Gold,Active
+CUST0071,ONGC Branch 1,REG011,Andhra Pradesh,Mining,Platinum,Active
+CUST0072,Bharat Petroleum Branch 3,REG019,Bihar,Engineering,Silver,Active
+CUST0073,GAIL India Branch 5,REG017,Jharkhand,Energy,Silver,Active
+CUST0074,Tata Steel Branch 10,REG008,Madhya Pradesh,Manufacturing,Gold,Active
+CUST0075,Oil India Branch 20,REG018,Chhattisgarh,Engineering,Silver,Active
+CUST0076,Oil India Branch 30,REG018,Chhattisgarh,Oil & Gas,Silver,Active
+CUST0077,Bharat Petroleum Branch 29,REG009,Tamil Nadu,Oil & Gas,Platinum,Active
+CUST0078,HPCL Branch 9,REG018,Chhattisgarh,Energy,Platinum,Active
+CUST0079,Larsen & Toubro Branch 7,REG007,Maharashtra,Energy,Platinum,Active
+CUST0080,GAIL India Branch 29,REG016,Assam,Oil & Gas,Silver,Active
+CUST0081,GAIL India Branch 2,REG014,Odisha,Oil & Gas,Gold,Active
+CUST0082,GAIL India Branch 6,REG005,Punjab,Mining,Platinum,Active
+CUST0083,Schlumberger Branch 1,REG014,Odisha,Oil & Gas,Silver,Active
+CUST0084,Schlumberger Branch 2,REG005,Punjab,Energy,Platinum,Active
+CUST0085,HPCL Branch 14,REG018,Chhattisgarh,Manufacturing,Silver,Active
+CUST0086,Tata Steel Branch 29,REG010,Karnataka,Oil & Gas,Gold,Active
+CUST0087,Essar Oil Branch 22,REG007,Maharashtra,Oil & Gas,Gold,Active
+CUST0088,Adani Power Branch 20,REG018,Chhattisgarh,Manufacturing,Silver,Active
+CUST0089,Vedanta Limited Branch 29,REG006,Uttar Pradesh,Mining,Silver,Active
+CUST0090,Larsen & Toubro Branch 26,REG006,Uttar Pradesh,Mining,Platinum,Active
+CUST0091,GAIL India Branch 6,REG008,Madhya Pradesh,Oil & Gas,Gold,Active
+CUST0092,BHEL Branch 8,REG002,Gujarat,Manufacturing,Gold,Active
+CUST0093,Oil India Branch 27,REG012,Telangana,Manufacturing,Silver,Active
+CUST0094,Cairn Oil Branch 13,REG001,Rajasthan,Energy,Gold,Active
+CUST0095,GAIL India Branch 12,REG003,Delhi NCR,Engineering,Gold,Active
+CUST0096,Larsen & Toubro Branch 1,REG018,Chhattisgarh,Oil & Gas,Gold,Active
+CUST0097,Halliburton Branch 9,REG006,Uttar Pradesh,Oil & Gas,Silver,Active
+CUST0098,Adani Power Branch 12,REG020,Goa,Energy,Gold,Active
+CUST0099,Engineers India Branch 4,REG020,Goa,Mining,Platinum,Active
+CUST0100,GAIL India Branch 2,REG007,Maharashtra,Mining,Silver,Active
+CUST0101,Schlumberger Branch 22,REG017,Jharkhand,Manufacturing,Gold,Active
+CUST0102,ONGC Branch 22,REG014,Odisha,Energy,Platinum,Active
+CUST0103,Bharat Petroleum Branch 24,REG011,Andhra Pradesh,Energy,Platinum,Active
+CUST0104,Adani Power Branch 11,REG010,Karnataka,Mining,Platinum,Active
+CUST0105,Schlumberger Branch 5,REG010,Karnataka,Manufacturing,Gold,Active
+CUST0106,Vedanta Limited Branch 20,REG013,Kerala,Engineering,Gold,Active
+CUST0107,Schlumberger Branch 27,REG013,Kerala,Oil & Gas,Gold,Active
+CUST0108,Cairn Oil Branch 14,REG010,Karnataka,Engineering,Platinum,Active
+CUST0109,NTPC Branch 15,REG011,Andhra Pradesh,Mining,Platinum,Active
+CUST0110,Engineers India Branch 16,REG007,Maharashtra,Manufacturing,Platinum,Active
+CUST0111,Oil India Branch 17,REG003,Delhi NCR,Engineering,Gold,Active
+CUST0112,Essar Oil Branch 22,REG003,Delhi NCR,Energy,Silver,Active
+CUST0113,HPCL Branch 1,REG007,Maharashtra,Oil & Gas,Silver,Active
+CUST0114,Baker Hughes Branch 28,REG016,Assam,Oil & Gas,Gold,Active
+CUST0115,Halliburton Branch 7,REG014,Odisha,Mining,Gold,Active
+CUST0116,Essar Oil Branch 5,REG013,Kerala,Oil & Gas,Silver,Active
+CUST0117,Essar Oil Branch 6,REG014,Odisha,Engineering,Gold,Active
+CUST0118,Schlumberger Branch 8,REG002,Gujarat,Oil & Gas,Gold,Active
+CUST0119,NTPC Branch 22,REG005,Punjab,Engineering,Platinum,Active
+CUST0120,Larsen & Toubro Branch 25,REG020,Goa,Mining,Platinum,Active
+CUST0121,Adani Power Branch 27,REG017,Jharkhand,Engineering,Gold,Active
+CUST0122,BHEL Branch 15,REG006,Uttar Pradesh,Energy,Silver,Active
+CUST0123,Engineers India Branch 16,REG009,Tamil Nadu,Manufacturing,Gold,Active
+CUST0124,ONGC Branch 23,REG015,West Bengal,Energy,Silver,Active
+CUST0125,Larsen & Toubro Branch 11,REG009,Tamil Nadu,Engineering,Silver,Active
+CUST0126,HPCL Branch 8,REG005,Punjab,Mining,Platinum,Active
+CUST0127,Cairn Oil Branch 3,REG005,Punjab,Mining,Gold,Active
+CUST0128,Schlumberger Branch 15,REG011,Andhra Pradesh,Mining,Silver,Active
+CUST0129,Adani Power Branch 13,REG007,Maharashtra,Engineering,Platinum,Active
+CUST0130,Halliburton Branch 13,REG001,Rajasthan,Mining,Silver,Active
+CUST0131,Oil India Branch 25,REG012,Telangana,Mining,Gold,Active
+CUST0132,Schlumberger Branch 26,REG018,Chhattisgarh,Engineering,Silver,Active
+CUST0133,Essar Oil Branch 9,REG016,Assam,Mining,Gold,Active
+CUST0134,JSW Steel Branch 11,REG001,Rajasthan,Mining,Platinum,Active
+CUST0135,NTPC Branch 30,REG006,Uttar Pradesh,Manufacturing,Platinum,Active
+CUST0136,Reliance Industries Branch 30,REG018,Chhattisgarh,Mining,Platinum,Active
+CUST0137,Reliance Industries Branch 3,REG019,Bihar,Mining,Silver,Active
+CUST0138,Vedanta Limited Branch 2,REG015,West Bengal,Energy,Gold,Active
+CUST0139,Cairn Oil Branch 15,REG011,Andhra Pradesh,Energy,Gold,Active
+CUST0140,GAIL India Branch 25,REG013,Kerala,Mining,Gold,Active
+CUST0141,BHEL Branch 1,REG003,Delhi NCR,Engineering,Silver,Active
+CUST0142,Essar Oil Branch 21,REG012,Telangana,Oil & Gas,Platinum,Active
+CUST0143,Reliance Industries Branch 8,REG002,Gujarat,Manufacturing,Silver,Active
+CUST0144,HPCL Branch 8,REG020,Goa,Manufacturing,Gold,Active
+CUST0145,Halliburton Branch 7,REG004,Haryana,Mining,Platinum,Active
+CUST0146,Tata Steel Branch 6,REG009,Tamil Nadu,Engineering,Platinum,Active
+CUST0147,Vedanta Limited Branch 10,REG004,Haryana,Oil & Gas,Platinum,Active
+CUST0148,Oil India Branch 19,REG001,Rajasthan,Mining,Gold,Active
+CUST0149,ONGC Branch 19,REG007,Maharashtra,Manufacturing,Silver,Active
+CUST0150,Baker Hughes Branch 26,REG010,Karnataka,Oil & Gas,Platinum,Active
+CUST0151,Tata Steel Branch 18,REG002,Gujarat,Mining,Platinum,Active
+CUST0152,ONGC Branch 17,REG012,Telangana,Energy,Silver,Active
+CUST0153,BHEL Branch 4,REG014,Odisha,Mining,Gold,Active
+CUST0154,HPCL Branch 14,REG015,West Bengal,Manufacturing,Platinum,Active
+CUST0155,GAIL India Branch 20,REG017,Jharkhand,Engineering,Gold,Active
+CUST0156,Adani Power Branch 27,REG015,West Bengal,Engineering,Gold,Active
+CUST0157,Essar Oil Branch 27,REG011,Andhra Pradesh,Oil & Gas,Gold,Active
+CUST0158,Essar Oil Branch 25,REG015,West Bengal,Mining,Platinum,Active
+CUST0159,JSW Steel Branch 11,REG020,Goa,Oil & Gas,Gold,Active
+CUST0160,Vedanta Limited Branch 16,REG011,Andhra Pradesh,Manufacturing,Gold,Active
+CUST0161,Larsen & Toubro Branch 9,REG009,Tamil Nadu,Engineering,Platinum,Active
+CUST0162,Schlumberger Branch 1,REG009,Tamil Nadu,Engineering,Silver,Active
+CUST0163,Essar Oil Branch 24,REG003,Delhi NCR,Mining,Gold,Active
+CUST0164,Essar Oil Branch 23,REG018,Chhattisgarh,Mining,Platinum,Active
+CUST0165,NTPC Branch 26,REG016,Assam,Oil & Gas,Silver,Active
+CUST0166,Essar Oil Branch 13,REG010,Karnataka,Manufacturing,Gold,Active
+CUST0167,Tata Steel Branch 16,REG019,Bihar,Engineering,Platinum,Active
+CUST0168,Adani Power Branch 24,REG012,Telangana,Engineering,Gold,Active
+CUST0169,NTPC Branch 9,REG012,Telangana,Energy,Gold,Active
+CUST0170,Bharat Petroleum Branch 24,REG008,Madhya Pradesh,Manufacturing,Gold,Active
+CUST0171,Schlumberger Branch 25,REG004,Haryana,Manufacturing,Silver,Active
+CUST0172,BHEL Branch 9,REG007,Maharashtra,Engineering,Platinum,Active
+CUST0173,Oil India Branch 4,REG020,Goa,Manufacturing,Gold,Active
+CUST0174,Tata Steel Branch 6,REG008,Madhya Pradesh,Energy,Silver,Active
+CUST0175,HPCL Branch 9,REG018,Chhattisgarh,Oil & Gas,Silver,Active
+CUST0176,Oil India Branch 23,REG018,Chhattisgarh,Manufacturing,Platinum,Active
+CUST0177,Bharat Petroleum Branch 28,REG016,Assam,Oil & Gas,Platinum,Active
+CUST0178,BHEL Branch 16,REG010,Karnataka,Mining,Gold,Active
+CUST0179,Indian Oil Branch 9,REG006,Uttar Pradesh,Mining,Silver,Active
+CUST0180,JSW Steel Branch 16,REG003,Delhi NCR,Oil & Gas,Platinum,Active
+CUST0181,HPCL Branch 5,REG002,Gujarat,Engineering,Gold,Active
+CUST0182,Essar Oil Branch 4,REG003,Delhi NCR,Engineering,Gold,Active
+CUST0183,Baker Hughes Branch 26,REG020,Goa,Engineering,Silver,Active
+CUST0184,JSW Steel Branch 15,REG017,Jharkhand,Mining,Gold,Active
+CUST0185,Adani Power Branch 10,REG019,Bihar,Engineering,Platinum,Active
+CUST0186,Baker Hughes Branch 24,REG002,Gujarat,Oil & Gas,Silver,Active
+CUST0187,GAIL India Branch 22,REG007,Maharashtra,Oil & Gas,Silver,Active
+CUST0188,Vedanta Limited Branch 18,REG008,Madhya Pradesh,Oil & Gas,Silver,Active
+CUST0189,Adani Power Branch 15,REG001,Rajasthan,Engineering,Gold,Active
+CUST0190,Indian Oil Branch 8,REG010,Karnataka,Energy,Platinum,Active
+CUST0191,NTPC Branch 3,REG010,Karnataka,Manufacturing,Gold,Active
+CUST0192,Cairn Oil Branch 14,REG019,Bihar,Oil & Gas,Platinum,Active
+CUST0193,HPCL Branch 30,REG008,Madhya Pradesh,Energy,Silver,Active
+CUST0194,Indian Oil Branch 6,REG003,Delhi NCR,Energy,Platinum,Active
+CUST0195,Oil India Branch 15,REG019,Bihar,Oil & Gas,Gold,Active
+CUST0196,JSW Steel Branch 9,REG010,Karnataka,Engineering,Platinum,Active
+CUST0197,NTPC Branch 3,REG016,Assam,Engineering,Silver,Active
+CUST0198,Larsen & Toubro Branch 20,REG014,Odisha,Energy,Silver,Active
+CUST0199,Essar Oil Branch 22,REG003,Delhi NCR,Engineering,Platinum,Active
+CUST0200,GAIL India Branch 19,REG001,Rajasthan,Oil & Gas,Silver,Active
+CUST0201,Engineers India Branch 21,REG016,Assam,Mining,Gold,Active
+CUST0202,Halliburton Branch 14,REG006,Uttar Pradesh,Mining,Silver,Active
+CUST0203,Tata Steel Branch 14,REG016,Assam,Energy,Gold,Active
+CUST0204,Vedanta Limited Branch 11,REG004,Haryana,Mining,Platinum,Active
+CUST0205,Oil India Branch 22,REG016,Assam,Mining,Platinum,Active
+CUST0206,NTPC Branch 3,REG002,Gujarat,Energy,Gold,Active
+CUST0207,Bharat Petroleum Branch 25,REG011,Andhra Pradesh,Mining,Platinum,Active
+CUST0208,Schlumberger Branch 15,REG001,Rajasthan,Mining,Silver,Active
+CUST0209,Engineers India Branch 12,REG007,Maharashtra,Engineering,Gold,Active
+CUST0210,Indian Oil Branch 7,REG015,West Bengal,Energy,Platinum,Active
+CUST0211,Oil India Branch 15,REG005,Punjab,Mining,Silver,Active
+CUST0212,Baker Hughes Branch 26,REG001,Rajasthan,Manufacturing,Platinum,Active
+CUST0213,Oil India Branch 18,REG006,Uttar Pradesh,Oil & Gas,Platinum,Active
+CUST0214,ONGC Branch 8,REG014,Odisha,Oil & Gas,Gold,Active
+CUST0215,HPCL Branch 16,REG004,Haryana,Energy,Platinum,Active
+CUST0216,Adani Power Branch 27,REG009,Tamil Nadu,Mining,Gold,Active
+CUST0217,NTPC Branch 18,REG008,Madhya Pradesh,Manufacturing,Gold,Active
+CUST0218,Baker Hughes Branch 17,REG007,Maharashtra,Manufacturing,Silver,Active
+CUST0219,Adani Power Branch 11,REG009,Tamil Nadu,Engineering,Gold,Active
+CUST0220,Oil India Branch 24,REG001,Rajasthan,Energy,Platinum,Active
+CUST0221,BHEL Branch 28,REG019,Bihar,Manufacturing,Gold,Active
+CUST0222,BHEL Branch 12,REG018,Chhattisgarh,Energy,Platinum,Active
+CUST0223,JSW Steel Branch 15,REG018,Chhattisgarh,Energy,Silver,Active
+CUST0224,Halliburton Branch 13,REG008,Madhya Pradesh,Manufacturing,Gold,Active
+CUST0225,Larsen & Toubro Branch 24,REG002,Gujarat,Mining,Platinum,Active
+CUST0226,JSW Steel Branch 22,REG013,Kerala,Manufacturing,Gold,Active
+CUST0227,HPCL Branch 17,REG002,Gujarat,Engineering,Gold,Active
+CUST0228,NTPC Branch 4,REG004,Haryana,Engineering,Gold,Active
+CUST0229,HPCL Branch 14,REG001,Rajasthan,Manufacturing,Silver,Active
+CUST0230,GAIL India Branch 11,REG016,Assam,Engineering,Platinum,Active
+CUST0231,ONGC Branch 28,REG013,Kerala,Energy,Platinum,Active
+CUST0232,JSW Steel Branch 11,REG018,Chhattisgarh,Mining,Platinum,Active
+CUST0233,Baker Hughes Branch 3,REG002,Gujarat,Manufacturing,Platinum,Active
+CUST0234,Essar Oil Branch 24,REG010,Karnataka,Oil & Gas,Gold,Active
+CUST0235,Bharat Petroleum Branch 15,REG004,Haryana,Manufacturing,Platinum,Active
+CUST0236,Reliance Industries Branch 2,REG010,Karnataka,Energy,Silver,Active
+CUST0237,Tata Steel Branch 12,REG010,Karnataka,Mining,Silver,Active
+CUST0238,Engineers India Branch 14,REG008,Madhya Pradesh,Engineering,Platinum,Active
+CUST0239,Vedanta Limited Branch 6,REG006,Uttar Pradesh,Oil & Gas,Platinum,Active
+CUST0240,Baker Hughes Branch 22,REG013,Kerala,Manufacturing,Gold,Active
+CUST0241,HPCL Branch 8,REG019,Bihar,Mining,Platinum,Active
+CUST0242,NTPC Branch 9,REG009,Tamil Nadu,Oil & Gas,Gold,Active
+CUST0243,Schlumberger Branch 6,REG010,Karnataka,Oil & Gas,Gold,Active
+CUST0244,Halliburton Branch 10,REG012,Telangana,Mining,Platinum,Active
+CUST0245,NTPC Branch 28,REG009,Tamil Nadu,Energy,Silver,Active
+CUST0246,BHEL Branch 4,REG013,Kerala,Manufacturing,Gold,Active
+CUST0247,Tata Steel Branch 19,REG019,Bihar,Energy,Platinum,Active
+CUST0248,Reliance Industries Branch 27,REG010,Karnataka,Mining,Gold,Active
+CUST0249,Halliburton Branch 28,REG001,Rajasthan,Oil & Gas,Platinum,Active
+CUST0250,Oil India Branch 25,REG016,Assam,Manufacturing,Platinum,Active
+CUST0251,Essar Oil Branch 21,REG012,Telangana,Manufacturing,Platinum,Active
+CUST0252,HPCL Branch 21,REG009,Tamil Nadu,Oil & Gas,Platinum,Active
+CUST0253,Oil India Branch 26,REG002,Gujarat,Mining,Silver,Active
+CUST0254,Tata Steel Branch 24,REG019,Bihar,Manufacturing,Silver,Active
+CUST0255,Larsen & Toubro Branch 24,REG010,Karnataka,Mining,Silver,Active
+CUST0256,HPCL Branch 26,REG007,Maharashtra,Engineering,Gold,Active
+CUST0257,Engineers India Branch 30,REG017,Jharkhand,Energy,Silver,Active
+CUST0258,BHEL Branch 26,REG009,Tamil Nadu,Energy,Platinum,Active
+CUST0259,Bharat Petroleum Branch 15,REG011,Andhra Pradesh,Oil & Gas,Silver,Active
+CUST0260,JSW Steel Branch 28,REG008,Madhya Pradesh,Engineering,Gold,Active
+CUST0261,JSW Steel Branch 1,REG003,Delhi NCR,Energy,Platinum,Active
+CUST0262,NTPC Branch 12,REG004,Haryana,Energy,Platinum,Active
+CUST0263,Tata Steel Branch 4,REG013,Kerala,Manufacturing,Gold,Active
+CUST0264,Baker Hughes Branch 29,REG001,Rajasthan,Engineering,Gold,Active
+CUST0265,Essar Oil Branch 21,REG020,Goa,Oil & Gas,Platinum,Active
+CUST0266,Oil India Branch 21,REG015,West Bengal,Mining,Silver,Active
+CUST0267,Indian Oil Branch 2,REG005,Punjab,Energy,Gold,Active
+CUST0268,Bharat Petroleum Branch 8,REG004,Haryana,Engineering,Silver,Active
+CUST0269,NTPC Branch 12,REG013,Kerala,Engineering,Gold,Active
+CUST0270,HPCL Branch 29,REG019,Bihar,Mining,Platinum,Active
+CUST0271,BHEL Branch 20,REG004,Haryana,Mining,Gold,Active
+CUST0272,Tata Steel Branch 7,REG002,Gujarat,Mining,Gold,Active
+CUST0273,Tata Steel Branch 4,REG008,Madhya Pradesh,Energy,Platinum,Active
+CUST0274,Indian Oil Branch 13,REG012,Telangana,Energy,Silver,Active
+CUST0275,NTPC Branch 3,REG004,Haryana,Manufacturing,Platinum,Active
+CUST0276,Reliance Industries Branch 2,REG020,Goa,Energy,Silver,Active
+CUST0277,Halliburton Branch 7,REG005,Punjab,Oil & Gas,Platinum,Active
+CUST0278,Halliburton Branch 7,REG007,Maharashtra,Manufacturing,Gold,Active
+CUST0279,Baker Hughes Branch 1,REG005,Punjab,Energy,Silver,Active
+CUST0280,Schlumberger Branch 9,REG005,Punjab,Manufacturing,Silver,Active
+CUST0281,HPCL Branch 1,REG001,Rajasthan,Energy,Silver,Active
+CUST0282,Larsen & Toubro Branch 1,REG019,Bihar,Manufacturing,Gold,Active
+CUST0283,HPCL Branch 24,REG002,Gujarat,Mining,Platinum,Active
+CUST0284,ONGC Branch 16,REG004,Haryana,Mining,Gold,Active
+CUST0285,Halliburton Branch 4,REG017,Jharkhand,Mining,Platinum,Active
+CUST0286,Baker Hughes Branch 2,REG008,Madhya Pradesh,Engineering,Gold,Active
+CUST0287,Reliance Industries Branch 2,REG015,West Bengal,Mining,Gold,Active
+CUST0288,Bharat Petroleum Branch 16,REG014,Odisha,Mining,Silver,Active
+CUST0289,Larsen & Toubro Branch 20,REG003,Delhi NCR,Manufacturing,Silver,Active
+CUST0290,GAIL India Branch 20,REG005,Punjab,Engineering,Platinum,Active
+CUST0291,JSW Steel Branch 20,REG011,Andhra Pradesh,Engineering,Gold,Active
+CUST0292,Engineers India Branch 20,REG015,West Bengal,Mining,Silver,Active
+CUST0293,Schlumberger Branch 24,REG004,Haryana,Manufacturing,Gold,Active
+CUST0294,Essar Oil Branch 14,REG015,West Bengal,Energy,Gold,Active
+CUST0295,Adani Power Branch 24,REG013,Kerala,Oil & Gas,Gold,Active
+CUST0296,Larsen & Toubro Branch 22,REG014,Odisha,Energy,Gold,Active
+CUST0297,BHEL Branch 3,REG005,Punjab,Oil & Gas,Silver,Active
+CUST0298,Adani Power Branch 4,REG003,Delhi NCR,Energy,Silver,Active
+CUST0299,Indian Oil Branch 19,REG018,Chhattisgarh,Engineering,Platinum,Active
+CUST0300,Bharat Petroleum Branch 14,REG011,Andhra Pradesh,Energy,Platinum,Active
+CUST0301,Indian Oil Branch 10,REG014,Odisha,Engineering,Gold,Active
+CUST0302,Bharat Petroleum Branch 19,REG012,Telangana,Engineering,Silver,Active
+CUST0303,BHEL Branch 8,REG005,Punjab,Oil & Gas,Gold,Active
+CUST0304,Tata Steel Branch 4,REG018,Chhattisgarh,Energy,Platinum,Active
+CUST0305,Adani Power Branch 28,REG008,Madhya Pradesh,Engineering,Platinum,Active
+CUST0306,Schlumberger Branch 1,REG020,Goa,Engineering,Platinum,Active
+CUST0307,Reliance Industries Branch 6,REG009,Tamil Nadu,Energy,Platinum,Active
+CUST0308,Larsen & Toubro Branch 12,REG010,Karnataka,Oil & Gas,Silver,Active
+CUST0309,Halliburton Branch 22,REG005,Punjab,Mining,Silver,Active
+CUST0310,Reliance Industries Branch 3,REG005,Punjab,Engineering,Silver,Active
+CUST0311,Adani Power Branch 15,REG013,Kerala,Energy,Silver,Active
+CUST0312,Oil India Branch 24,REG012,Telangana,Energy,Platinum,Active
+CUST0313,ONGC Branch 29,REG020,Goa,Oil & Gas,Silver,Active
+CUST0314,Baker Hughes Branch 2,REG006,Uttar Pradesh,Oil & Gas,Gold,Active
+CUST0315,Adani Power Branch 16,REG015,West Bengal,Engineering,Gold,Active
+CUST0316,GAIL India Branch 7,REG014,Odisha,Engineering,Silver,Active
+CUST0317,Adani Power Branch 4,REG012,Telangana,Energy,Platinum,Active
+CUST0318,BHEL Branch 17,REG019,Bihar,Energy,Silver,Active
+CUST0319,JSW Steel Branch 20,REG008,Madhya Pradesh,Oil & Gas,Silver,Active
+CUST0320,Oil India Branch 7,REG007,Maharashtra,Manufacturing,Gold,Active
+CUST0321,Larsen & Toubro Branch 4,REG010,Karnataka,Oil & Gas,Gold,Active
+CUST0322,Vedanta Limited Branch 5,REG014,Odisha,Mining,Platinum,Active
+CUST0323,Engineers India Branch 18,REG008,Madhya Pradesh,Energy,Silver,Active
+CUST0324,Indian Oil Branch 14,REG013,Kerala,Oil & Gas,Gold,Active
+CUST0325,Larsen & Toubro Branch 19,REG003,Delhi NCR,Mining,Platinum,Active
+CUST0326,Adani Power Branch 10,REG013,Kerala,Oil & Gas,Gold,Active
+CUST0327,Larsen & Toubro Branch 6,REG001,Rajasthan,Engineering,Gold,Active
+CUST0328,ONGC Branch 14,REG012,Telangana,Oil & Gas,Silver,Active
+CUST0329,Halliburton Branch 13,REG014,Odisha,Engineering,Silver,Active
+CUST0330,Oil India Branch 24,REG013,Kerala,Energy,Silver,Active
+CUST0331,Vedanta Limited Branch 3,REG011,Andhra Pradesh,Engineering,Platinum,Active
+CUST0332,Engineers India Branch 17,REG004,Haryana,Manufacturing,Gold,Active
+CUST0333,HPCL Branch 8,REG012,Telangana,Oil & Gas,Silver,Active
+CUST0334,Cairn Oil Branch 6,REG009,Tamil Nadu,Engineering,Silver,Active
+CUST0335,Vedanta Limited Branch 25,REG003,Delhi NCR,Mining,Gold,Active
+CUST0336,Halliburton Branch 15,REG019,Bihar,Engineering,Platinum,Active
+CUST0337,Larsen & Toubro Branch 28,REG020,Goa,Energy,Silver,Active
+CUST0338,ONGC Branch 16,REG015,West Bengal,Mining,Platinum,Active
+CUST0339,GAIL India Branch 19,REG010,Karnataka,Oil & Gas,Gold,Active
+CUST0340,ONGC Branch 10,REG017,Jharkhand,Mining,Gold,Active
+CUST0341,Indian Oil Branch 12,REG002,Gujarat,Energy,Silver,Active
+CUST0342,Baker Hughes Branch 20,REG003,Delhi NCR,Engineering,Gold,Active
+CUST0343,Halliburton Branch 18,REG015,West Bengal,Oil & Gas,Gold,Active
+CUST0344,Cairn Oil Branch 11,REG019,Bihar,Engineering,Gold,Active
+CUST0345,HPCL Branch 2,REG017,Jharkhand,Mining,Silver,Active
+CUST0346,ONGC Branch 17,REG011,Andhra Pradesh,Manufacturing,Silver,Active
+CUST0347,NTPC Branch 15,REG008,Madhya Pradesh,Engineering,Platinum,Active
+CUST0348,Vedanta Limited Branch 12,REG020,Goa,Energy,Gold,Active
+CUST0349,Adani Power Branch 25,REG013,Kerala,Energy,Platinum,Active
+CUST0350,Indian Oil Branch 26,REG020,Goa,Energy,Silver,Active
+CUST0351,Bharat Petroleum Branch 18,REG011,Andhra Pradesh,Mining,Gold,Active
+CUST0352,Baker Hughes Branch 28,REG009,Tamil Nadu,Manufacturing,Gold,Active
+CUST0353,Halliburton Branch 22,REG003,Delhi NCR,Manufacturing,Gold,Active
+CUST0354,JSW Steel Branch 5,REG010,Karnataka,Engineering,Platinum,Active
+CUST0355,Oil India Branch 18,REG003,Delhi NCR,Mining,Platinum,Active
+CUST0356,HPCL Branch 22,REG011,Andhra Pradesh,Engineering,Silver,Active
+CUST0357,Engineers India Branch 12,REG014,Odisha,Oil & Gas,Gold,Active
+CUST0358,Vedanta Limited Branch 7,REG010,Karnataka,Energy,Gold,Active
+CUST0359,Essar Oil Branch 5,REG007,Maharashtra,Manufacturing,Silver,Active
+CUST0360,Bharat Petroleum Branch 17,REG010,Karnataka,Engineering,Platinum,Active
+CUST0361,Indian Oil Branch 22,REG017,Jharkhand,Energy,Platinum,Active
+CUST0362,Baker Hughes Branch 13,REG005,Punjab,Manufacturing,Silver,Active
+CUST0363,Baker Hughes Branch 26,REG006,Uttar Pradesh,Manufacturing,Platinum,Active
+CUST0364,Indian Oil Branch 14,REG015,West Bengal,Energy,Platinum,Active
+CUST0365,NTPC Branch 20,REG008,Madhya Pradesh,Energy,Platinum,Active
+CUST0366,Essar Oil Branch 18,REG015,West Bengal,Manufacturing,Gold,Active
+CUST0367,Cairn Oil Branch 12,REG016,Assam,Engineering,Gold,Active
+CUST0368,Oil India Branch 25,REG015,West Bengal,Mining,Platinum,Active
+CUST0369,Adani Power Branch 6,REG017,Jharkhand,Manufacturing,Platinum,Active
+CUST0370,GAIL India Branch 2,REG005,Punjab,Mining,Gold,Active
+CUST0371,Bharat Petroleum Branch 23,REG018,Chhattisgarh,Engineering,Silver,Active
+CUST0372,ONGC Branch 25,REG010,Karnataka,Manufacturing,Gold,Active
+CUST0373,Engineers India Branch 5,REG015,West Bengal,Mining,Silver,Active
+CUST0374,NTPC Branch 29,REG008,Madhya Pradesh,Energy,Silver,Active
+CUST0375,Indian Oil Branch 13,REG014,Odisha,Engineering,Gold,Active
+CUST0376,JSW Steel Branch 3,REG008,Madhya Pradesh,Energy,Silver,Active
+CUST0377,Larsen & Toubro Branch 30,REG001,Rajasthan,Oil & Gas,Platinum,Active
+CUST0378,HPCL Branch 5,REG011,Andhra Pradesh,Oil & Gas,Gold,Active
+CUST0379,HPCL Branch 25,REG016,Assam,Mining,Gold,Active
+CUST0380,Reliance Industries Branch 29,REG020,Goa,Oil & Gas,Silver,Active
+CUST0381,Cairn Oil Branch 27,REG009,Tamil Nadu,Manufacturing,Platinum,Active
+CUST0382,Engineers India Branch 14,REG020,Goa,Oil & Gas,Gold,Active
+CUST0383,Oil India Branch 4,REG008,Madhya Pradesh,Oil & Gas,Silver,Active
+CUST0384,Baker Hughes Branch 15,REG014,Odisha,Oil & Gas,Silver,Active
+CUST0385,Baker Hughes Branch 18,REG016,Assam,Oil & Gas,Platinum,Active
+CUST0386,Halliburton Branch 8,REG017,Jharkhand,Manufacturing,Gold,Active
+CUST0387,Reliance Industries Branch 20,REG014,Odisha,Energy,Silver,Active
+CUST0388,Adani Power Branch 6,REG019,Bihar,Oil & Gas,Platinum,Active
+CUST0389,ONGC Branch 17,REG012,Telangana,Engineering,Platinum,Active
+CUST0390,Schlumberger Branch 1,REG017,Jharkhand,Mining,Gold,Active
+CUST0391,JSW Steel Branch 12,REG002,Gujarat,Energy,Platinum,Active
+CUST0392,Tata Steel Branch 26,REG001,Rajasthan,Oil & Gas,Gold,Active
+CUST0393,Bharat Petroleum Branch 25,REG008,Madhya Pradesh,Engineering,Platinum,Active
+CUST0394,HPCL Branch 2,REG011,Andhra Pradesh,Energy,Platinum,Active
+CUST0395,Vedanta Limited Branch 27,REG011,Andhra Pradesh,Mining,Platinum,Active
+CUST0396,Vedanta Limited Branch 26,REG016,Assam,Manufacturing,Silver,Active
+CUST0397,Indian Oil Branch 10,REG015,West Bengal,Manufacturing,Silver,Active
+CUST0398,Indian Oil Branch 11,REG007,Maharashtra,Energy,Platinum,Active
+CUST0399,Schlumberger Branch 16,REG013,Kerala,Energy,Silver,Active
+CUST0400,Oil India Branch 12,REG007,Maharashtra,Oil & Gas,Platinum,Active
+CUST0401,GAIL India Branch 4,REG011,Andhra Pradesh,Energy,Gold,Active
+CUST0402,NTPC Branch 29,REG013,Kerala,Mining,Gold,Active
+CUST0403,BHEL Branch 23,REG006,Uttar Pradesh,Mining,Gold,Active
+CUST0404,GAIL India Branch 26,REG017,Jharkhand,Oil & Gas,Platinum,Active
+CUST0405,ONGC Branch 14,REG014,Odisha,Engineering,Silver,Active
+CUST0406,Oil India Branch 11,REG018,Chhattisgarh,Oil & Gas,Silver,Active
+CUST0407,Oil India Branch 10,REG011,Andhra Pradesh,Mining,Platinum,Active
+CUST0408,Vedanta Limited Branch 23,REG014,Odisha,Mining,Gold,Active
+CUST0409,Indian Oil Branch 24,REG015,West Bengal,Energy,Platinum,Active
+CUST0410,GAIL India Branch 21,REG014,Odisha,Oil & Gas,Silver,Active
+CUST0411,Tata Steel Branch 17,REG013,Kerala,Manufacturing,Silver,Active
+CUST0412,Baker Hughes Branch 22,REG005,Punjab,Mining,Silver,Active
+CUST0413,ONGC Branch 8,REG005,Punjab,Energy,Gold,Active
+CUST0414,Halliburton Branch 2,REG013,Kerala,Engineering,Silver,Active
+CUST0415,Tata Steel Branch 12,REG015,West Bengal,Mining,Silver,Active
+CUST0416,HPCL Branch 17,REG019,Bihar,Energy,Gold,Active
+CUST0417,GAIL India Branch 8,REG011,Andhra Pradesh,Oil & Gas,Silver,Active
+CUST0418,BHEL Branch 17,REG006,Uttar Pradesh,Mining,Platinum,Active
+CUST0419,GAIL India Branch 25,REG004,Haryana,Energy,Platinum,Active
+CUST0420,Cairn Oil Branch 20,REG015,West Bengal,Energy,Platinum,Active
+CUST0421,Cairn Oil Branch 4,REG016,Assam,Manufacturing,Silver,Active
+CUST0422,Vedanta Limited Branch 29,REG015,West Bengal,Mining,Silver,Active
+CUST0423,Tata Steel Branch 23,REG011,Andhra Pradesh,Oil & Gas,Platinum,Active
+CUST0424,Oil India Branch 29,REG018,Chhattisgarh,Energy,Silver,Active
+CUST0425,Tata Steel Branch 17,REG006,Uttar Pradesh,Manufacturing,Silver,Active
+CUST0426,HPCL Branch 8,REG007,Maharashtra,Mining,Silver,Active
+CUST0427,Schlumberger Branch 19,REG012,Telangana,Energy,Gold,Active
+CUST0428,HPCL Branch 20,REG018,Chhattisgarh,Oil & Gas,Silver,Active
+CUST0429,JSW Steel Branch 23,REG010,Karnataka,Mining,Platinum,Active
+CUST0430,Adani Power Branch 27,REG014,Odisha,Engineering,Silver,Active
+CUST0431,Larsen & Toubro Branch 21,REG005,Punjab,Oil & Gas,Gold,Active
+CUST0432,Engineers India Branch 12,REG015,West Bengal,Manufacturing,Platinum,Active
+CUST0433,Vedanta Limited Branch 25,REG019,Bihar,Manufacturing,Gold,Active
+CUST0434,Indian Oil Branch 27,REG017,Jharkhand,Oil & Gas,Platinum,Active
+CUST0435,Oil India Branch 6,REG005,Punjab,Manufacturing,Gold,Active
+CUST0436,Tata Steel Branch 17,REG008,Madhya Pradesh,Energy,Silver,Active
+CUST0437,Cairn Oil Branch 21,REG009,Tamil Nadu,Engineering,Gold,Active
+CUST0438,Oil India Branch 20,REG005,Punjab,Engineering,Silver,Active
+CUST0439,Vedanta Limited Branch 19,REG017,Jharkhand,Engineering,Silver,Active
+CUST0440,Baker Hughes Branch 24,REG006,Uttar Pradesh,Engineering,Gold,Active
+CUST0441,Indian Oil Branch 27,REG019,Bihar,Oil & Gas,Silver,Active
+CUST0442,Halliburton Branch 9,REG002,Gujarat,Manufacturing,Platinum,Active
+CUST0443,Baker Hughes Branch 21,REG014,Odisha,Oil & Gas,Gold,Active
+CUST0444,Oil India Branch 21,REG018,Chhattisgarh,Energy,Gold,Active
+CUST0445,JSW Steel Branch 10,REG008,Madhya Pradesh,Mining,Silver,Active
+CUST0446,Vedanta Limited Branch 15,REG002,Gujarat,Mining,Gold,Active
+CUST0447,Cairn Oil Branch 11,REG015,West Bengal,Engineering,Silver,Active
+CUST0448,Larsen & Toubro Branch 24,REG011,Andhra Pradesh,Energy,Gold,Active
+CUST0449,Tata Steel Branch 17,REG005,Punjab,Engineering,Silver,Active
+CUST0450,Essar Oil Branch 15,REG011,Andhra Pradesh,Oil & Gas,Gold,Active
+CUST0451,Essar Oil Branch 5,REG015,West Bengal,Oil & Gas,Silver,Active
+CUST0452,JSW Steel Branch 28,REG010,Karnataka,Engineering,Gold,Active
+CUST0453,Vedanta Limited Branch 27,REG008,Madhya Pradesh,Energy,Platinum,Active
+CUST0454,Cairn Oil Branch 25,REG011,Andhra Pradesh,Manufacturing,Gold,Active
+CUST0455,NTPC Branch 16,REG017,Jharkhand,Energy,Gold,Active
+CUST0456,ONGC Branch 13,REG001,Rajasthan,Engineering,Gold,Active
+CUST0457,Cairn Oil Branch 19,REG008,Madhya Pradesh,Energy,Silver,Active
+CUST0458,Oil India Branch 16,REG002,Gujarat,Engineering,Platinum,Active
+CUST0459,Oil India Branch 18,REG016,Assam,Oil & Gas,Silver,Active
+CUST0460,HPCL Branch 29,REG014,Odisha,Energy,Platinum,Active
+CUST0461,JSW Steel Branch 12,REG012,Telangana,Oil & Gas,Gold,Active
+CUST0462,Halliburton Branch 18,REG002,Gujarat,Manufacturing,Gold,Active
+CUST0463,Oil India Branch 3,REG018,Chhattisgarh,Mining,Platinum,Active
+CUST0464,Schlumberger Branch 9,REG015,West Bengal,Engineering,Platinum,Active
+CUST0465,Bharat Petroleum Branch 5,REG020,Goa,Oil & Gas,Gold,Active
+CUST0466,Larsen & Toubro Branch 18,REG012,Telangana,Energy,Silver,Active
+CUST0467,Baker Hughes Branch 17,REG007,Maharashtra,Mining,Platinum,Active
+CUST0468,Indian Oil Branch 2,REG002,Gujarat,Manufacturing,Platinum,Active
+CUST0469,BHEL Branch 17,REG011,Andhra Pradesh,Mining,Silver,Active
+CUST0470,Engineers India Branch 5,REG020,Goa,Energy,Platinum,Active
+CUST0471,Vedanta Limited Branch 13,REG011,Andhra Pradesh,Engineering,Platinum,Active
+CUST0472,Halliburton Branch 11,REG010,Karnataka,Engineering,Platinum,Active
+CUST0473,BHEL Branch 23,REG018,Chhattisgarh,Engineering,Gold,Active
+CUST0474,Reliance Industries Branch 12,REG016,Assam,Energy,Platinum,Active
+CUST0475,Adani Power Branch 19,REG004,Haryana,Energy,Platinum,Active
+CUST0476,Baker Hughes Branch 16,REG001,Rajasthan,Energy,Platinum,Active
+CUST0477,Halliburton Branch 8,REG019,Bihar,Oil & Gas,Platinum,Active
+CUST0478,Vedanta Limited Branch 17,REG016,Assam,Engineering,Gold,Active
+CUST0479,Essar Oil Branch 2,REG005,Punjab,Engineering,Platinum,Active
+CUST0480,Cairn Oil Branch 1,REG004,Haryana,Mining,Gold,Active
+CUST0481,HPCL Branch 14,REG014,Odisha,Manufacturing,Gold,Active
+CUST0482,Baker Hughes Branch 30,REG017,Jharkhand,Mining,Platinum,Active
+CUST0483,HPCL Branch 17,REG002,Gujarat,Manufacturing,Platinum,Active
+CUST0484,BHEL Branch 17,REG011,Andhra Pradesh,Mining,Gold,Active
+CUST0485,NTPC Branch 30,REG006,Uttar Pradesh,Engineering,Gold,Active
+CUST0486,Tata Steel Branch 22,REG018,Chhattisgarh,Energy,Platinum,Active
+CUST0487,Cairn Oil Branch 8,REG016,Assam,Energy,Platinum,Active
+CUST0488,Essar Oil Branch 10,REG010,Karnataka,Energy,Platinum,Active
+CUST0489,BHEL Branch 11,REG007,Maharashtra,Mining,Gold,Active
+CUST0490,GAIL India Branch 10,REG018,Chhattisgarh,Oil & Gas,Platinum,Active
+CUST0491,JSW Steel Branch 29,REG018,Chhattisgarh,Mining,Gold,Active
+CUST0492,Oil India Branch 2,REG005,Punjab,Energy,Platinum,Active
+CUST0493,Tata Steel Branch 30,REG003,Delhi NCR,Mining,Platinum,Active
+CUST0494,BHEL Branch 7,REG009,Tamil Nadu,Manufacturing,Platinum,Active
+CUST0495,Schlumberger Branch 23,REG009,Tamil Nadu,Energy,Silver,Active
+CUST0496,Baker Hughes Branch 24,REG004,Haryana,Engineering,Silver,Active
+CUST0497,Indian Oil Branch 22,REG008,Madhya Pradesh,Engineering,Silver,Active
+CUST0498,Indian Oil Branch 4,REG008,Madhya Pradesh,Mining,Gold,Active
+CUST0499,Bharat Petroleum Branch 22,REG016,Assam,Manufacturing,Silver,Active
+CUST0500,Vedanta Limited Branch 14,REG018,Chhattisgarh,Mining,Gold,Active

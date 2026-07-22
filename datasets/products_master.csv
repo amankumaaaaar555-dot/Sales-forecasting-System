@@ -1,0 +1,18 @@
+Product_ID,Product_Name,Category,Manufacturing_Cost,Selling_Price,Lead_Time_Days,Stock_Quantity,Reorder_Level,Demand_Level,Status
+PRD0001,Hydraulic Cylinder,Downhole Tools,970487,1191595,20,164,37,High,Active
+PRD0002,Bridge Plug,Wellhead Equipment,407473,557901,10,352,74,Low,Active
+PRD0003,Stabilizer,Completion Tools,331244,405251,37,358,23,High,Active
+PRD0004,Mud Motor,Wellhead Equipment,508496,701218,31,162,77,High,Active
+PRD0005,Drill Collar,Hydraulic Equipment,591704,829780,15,407,74,Medium,Active
+PRD0006,Crossover,Downhole Tools,591369,732629,11,97,68,Low,Active
+PRD0007,Float Collar,Wellhead Equipment,676417,955015,21,463,25,High,Active
+PRD0008,Float Shoe,Drilling Tools,781741,1042887,10,332,57,High,Active
+PRD0009,Centralizer,Downhole Tools,948564,1348253,17,410,28,Low,Active
+PRD0010,Liner Hanger,Downhole Tools,993384,1248658,10,487,49,Low,Active
+PRD0011,Packer,Downhole Tools,698591,886856,15,239,65,Low,Active
+PRD0012,Tubing Hanger,Hydraulic Equipment,1002729,1270201,15,323,51,Low,Active
+PRD0013,Wellhead Assembly,Wellhead Equipment,784714,1016097,19,400,61,Low,Active
+PRD0014,Christmas Tree,Downhole Tools,540174,759187,30,187,28,Low,Active
+PRD0015,Completion Valve,Downhole Tools,894731,1269705,18,385,83,Medium,Active
+PRD0016,Drill Bit,Downhole Tools,974079,1280634,13,176,91,High,Active
+PRD0017,Casing Pipe,Drilling Tools,575504,798082,30,235,48,Low,Active

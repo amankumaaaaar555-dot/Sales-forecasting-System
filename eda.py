@@ -40,21 +40,19 @@ logger = logging.getLogger(__name__)
 # Sales Trend
 # ==========================================================
 
-def generate_sales_trend(df: pd.DataFrame):
-
-    logger.info("Generating sales trend...")
+def generate_sales_trend(df):
 
     sales_df = (
-        df.groupby(DATE_COLUMN)[TARGET_COLUMN]
+        df.groupby(DATE_COLUMN)["Total_Amount"]
         .sum()
         .reset_index()
     )
 
-    fig = px.line(
+    return px.line(
         sales_df,
         x=DATE_COLUMN,
-        y=TARGET_COLUMN,
-        title="Sales Trend Over Time"
+        y="Total_Amount",
+        title="Enterprise Revenue Trend"
     )
 
     return fig
@@ -64,25 +62,29 @@ def generate_sales_trend(df: pd.DataFrame):
 # Entity Performance
 # ==========================================================
 
-def generate_entity_performance(df: pd.DataFrame):
-
-    logger.info("Generating entity performance...")
-
-    entity_column = ID_COLUMNS[0]
+def generate_entity_performance(df):
 
     performance = (
-        df.groupby(entity_column)[TARGET_COLUMN]
-        .mean()
+
+        df.groupby("Region_Name")["Total_Amount"]
+
+        .sum()
+
         .reset_index()
+
     )
 
-    fig = px.bar(
+    return px.bar(
+
         performance,
-        x=entity_column,
-        y=TARGET_COLUMN,
-        title=f"Average {TARGET_COLUMN} by {entity_column}"
-    )
 
+        x="Region_Name",
+
+        y="Total_Amount",
+
+        title="Revenue by Region"
+
+    )
     return fig
 
 
@@ -112,24 +114,37 @@ def generate_correlation_matrix(df: pd.DataFrame):
 # Feature Distributions
 # ==========================================================
 
-def generate_feature_distributions(df: pd.DataFrame):
-
-    logger.info("Generating feature distributions...")
+def generate_feature_distributions(df):
 
     figures = {}
 
-    columns = NUMERICAL_COLUMNS + [TARGET_COLUMN]
+    columns = [
+
+        "Quantity",
+
+        "Manufacturing_Cost",
+
+        "Selling_Price",
+
+        "Profit",
+
+        "Total_Amount"
+
+    ]
 
     for column in columns:
 
-        fig = px.histogram(
-            df,
-            x=column,
-            nbins=30,
-            title=f"{column} Distribution"
-        )
+        figures[column] = px.histogram(
 
-        figures[column] = fig
+            df,
+
+            x=column,
+
+            nbins=30,
+
+            title=f"{column} Distribution"
+
+        )
 
     return figures
 

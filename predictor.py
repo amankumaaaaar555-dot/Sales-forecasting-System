@@ -162,12 +162,29 @@ def align_feature_columns(
     feature_columns
 ):
     """
-    Keep only columns used during training.
+    Align future dataset with training features.
+
+    Adds missing columns with 0 and removes
+    extra columns so the model receives the
+    exact same feature set used during training.
     """
 
-    return future_df[
-        feature_columns
-    ]
+    logger.info("Aligning feature columns...")
+
+    # Add missing columns
+    for column in feature_columns:
+
+        if column not in future_df.columns:
+
+            future_df[column] = 0
+
+    # Remove extra columns
+    future_df = future_df.reindex(
+        columns=feature_columns,
+        fill_value=0
+    )
+
+    return future_df
 
 
 # ==========================================================

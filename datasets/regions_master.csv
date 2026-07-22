@@ -1,0 +1,21 @@
+Region_ID,Region_Name,Zone,Growth_Potential,Status
+REG001,Rajasthan,North,High,Active
+REG002,Gujarat,West,High,Active
+REG003,Delhi NCR,North,High,Active
+REG004,Haryana,North,High,Active
+REG005,Punjab,North,High,Active
+REG006,Uttar Pradesh,North,High,Active
+REG007,Maharashtra,West,High,Active
+REG008,Madhya Pradesh,Central,High,Active
+REG009,Tamil Nadu,South,High,Active
+REG010,Karnataka,South,High,Active
+REG011,Andhra Pradesh,South,High,Active
+REG012,Telangana,South,High,Active
+REG013,Kerala,South,High,Active
+REG014,Odisha,East,High,Active
+REG015,West Bengal,East,High,Active
+REG016,Assam,East,High,Active
+REG017,Jharkhand,East,High,Active
+REG018,Chhattisgarh,Central,High,Active
+REG019,Bihar,East,High,Active
+REG020,Goa,West,High,Active

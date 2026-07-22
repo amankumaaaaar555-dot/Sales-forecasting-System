@@ -199,6 +199,8 @@ def save_model(
 
     logger.info(f"Model saved to {model_path}")
 
+    return model_path
+
 
 # ==========================================================
 # Public Training Pipeline
@@ -260,7 +262,7 @@ def train_model(
     # Save Model
     # ------------------------------------------------------
 
-    save_model(
+    model_path = save_model(
         model,
         model_name,
         feature_columns
@@ -273,6 +275,8 @@ def train_model(
         "model": model,
 
         "model_name": model_name,
+
+        "model_path": str(model_path),
 
         "feature_columns": feature_columns,
 

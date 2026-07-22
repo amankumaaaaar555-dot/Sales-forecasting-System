@@ -23,19 +23,25 @@ def show_sidebar():
     Returns
     -------
     tuple
-        (
-            application_mode,
-            dataset_option,
-            uploaded_file,
-            selected_model,
-            forecast_horizon,
-            train_size,
-            random_state,
-            split_method
-        )
     """
 
-    st.sidebar.title("⚙️ Settings")
+    # ======================================================
+    # Branding
+    # ======================================================
+
+    st.sidebar.title("📈 Sales Forecasting")
+
+    st.sidebar.caption(
+        "Enterprise Analytics Platform"
+    )
+
+    st.sidebar.markdown("---")
+
+    # ======================================================
+    # Settings
+    # ======================================================
+
+    st.sidebar.header("⚙️ Settings")
 
     st.sidebar.markdown("---")
 
@@ -86,13 +92,52 @@ def show_sidebar():
 
     st.sidebar.subheader("🤖 Model Settings")
 
+    # ---------------------------------------------
+    # Training Mode
+    # ---------------------------------------------
+
+    if application_mode == "Training":
+
+        model_list = [
+
+            "🤖 Auto Select",
+
+            "Linear Regression",
+
+            "Random Forest",
+
+            "Gradient Boosting",
+
+            "Extra Trees"
+
+        ]
+
+    # ---------------------------------------------
+    # Forecasting Mode
+    # ---------------------------------------------
+
+    else:
+
+        model_list = [
+
+            "Linear Regression",
+
+            "Random Forest",
+
+            "Gradient Boosting",
+
+            "Extra Trees"
+
+        ]
+
     selected_model = st.sidebar.selectbox(
         "Model",
-        [
-            "Linear Regression",
-            "Random Forest"
-        ]
+        model_list
     )
+
+    # ======================================================
+    # Forecast Settings
+    # ======================================================
 
     forecast_horizon = st.sidebar.slider(
         "Forecast Horizon",
@@ -101,6 +146,10 @@ def show_sidebar():
         value=DEFAULT_FORECAST_HORIZON,
         step=1
     )
+
+    # ======================================================
+    # Training Settings
+    # ======================================================
 
     train_size = st.sidebar.slider(
         "Training Data (%)",
@@ -121,8 +170,7 @@ def show_sidebar():
         [
             "Time Series",
             "Random"
-        ],
-        index=0
+        ]
     )
 
     st.sidebar.markdown("---")
@@ -131,7 +179,7 @@ def show_sidebar():
     # Pipeline Status
     # ======================================================
 
-    st.sidebar.subheader("ℹ️ Pipeline")
+    st.sidebar.subheader("📌 Pipeline Status")
 
     st.sidebar.success("✔ Load Dataset")
     st.sidebar.success("✔ Validate Dataset")
@@ -141,6 +189,12 @@ def show_sidebar():
     st.sidebar.success("✔ Train Model")
     st.sidebar.success("✔ Evaluate Model")
     st.sidebar.info("⏳ Forecast Sales")
+
+    st.sidebar.markdown("---")
+
+    st.sidebar.caption("Version 1.0")
+
+    st.sidebar.caption("Developed by Aman Kumar")
 
     return (
         application_mode,

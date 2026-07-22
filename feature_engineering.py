@@ -1,14 +1,14 @@
 """
 feature_engineering.py
 
-Feature engineering module for the
-Sales Forecasting System.
+Feature Engineering Module
 
 Responsibilities
 ----------------
-- Create date-based features
-- Select model features
-- Return engineered dataset
+- Create date features
+- Remove unnecessary ID columns
+- Apply One-Hot Encoding
+- Return ML-ready dataset
 
 Author: Aman Kumar
 """
@@ -16,7 +16,11 @@ Author: Aman Kumar
 import logging
 import pandas as pd
 
-from config import DATE_COLUMN
+from config import (
+    DATE_COLUMN,
+    ID_COLUMNS,
+    CATEGORICAL_COLUMNS
+)
 
 logger = logging.getLogger(__name__)
 
@@ -27,7 +31,7 @@ logger = logging.getLogger(__name__)
 
 def create_date_features(df: pd.DataFrame) -> pd.DataFrame:
     """
-    Extract useful features from the date column.
+    Create useful date-based features.
     """
 
     logger.info("Creating date features...")
@@ -43,13 +47,64 @@ def create_date_features(df: pd.DataFrame) -> pd.DataFrame:
 
 
 # ==========================================================
-# Select Features
+# Remove ID Columns
+# ==========================================================
+
+def remove_id_columns(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Remove identifier columns.
+    """
+
+    logger.info("Removing ID columns...")
+
+    existing_columns = [
+        column
+        for column in ID_COLUMNS
+        if column in df.columns
+    ]
+
+    df = df.drop(
+        columns=existing_columns,
+        errors="ignore"
+    )
+
+    return df
+
+
+# ==========================================================
+# One-Hot Encoding
+# ==========================================================
+
+def encode_categorical_features(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Apply One-Hot Encoding.
+    """
+
+    logger.info("Applying One-Hot Encoding...")
+
+    existing_columns = [
+        column
+        for column in CATEGORICAL_COLUMNS
+        if column in df.columns
+    ]
+
+    df = pd.get_dummies(
+        df,
+        columns=existing_columns,
+        drop_first=True,
+        dtype=int
+    )
+
+    return df
+
+
+# ==========================================================
+# Feature Selection
 # ==========================================================
 
 def select_features(df: pd.DataFrame) -> pd.DataFrame:
     """
     Placeholder for future feature selection.
-    Currently returns the dataframe unchanged.
     """
 
     logger.info("Selecting features...")
@@ -74,8 +129,14 @@ def engineer_features(df: pd.DataFrame) -> pd.DataFrame:
 
     feature_df = create_date_features(feature_df)
 
+    feature_df = remove_id_columns(feature_df)
+
+    feature_df = encode_categorical_features(feature_df)
+
     feature_df = select_features(feature_df)
 
-    logger.info("Feature engineering completed successfully.")
+    logger.info("=" * 60)
+    logger.info("Feature Engineering Completed Successfully")
+    logger.info("=" * 60)
 
     return feature_df

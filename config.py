@@ -20,34 +20,95 @@ OUTPUT_FOLDER = BASE_DIR / "outputs"
 MODEL_FOLDER = BASE_DIR / "saved_models"
 
 # ==========================================================
-# Dataset
+# Dataset Configuration
 # ==========================================================
 
-DEFAULT_DATASET_NAME = "walmart.csv"
+DEFAULT_DATASET_NAME = "sales_transactions.csv"
 
-DATE_COLUMN = "Date"
+DATE_COLUMN = "Invoice_Date"
 
-TARGET_COLUMN = "Weekly_Sales"
+TARGET_COLUMN = "Total_Amount"
 
-DATE_FORMAT = "%d-%m-%Y"
+DATE_FORMAT = "%Y-%m-%d"
 
 # ==========================================================
 # Dataset Schema
 # ==========================================================
 
 ID_COLUMNS = [
-    "Store"
+
+    "Invoice_Number",
+
+    "Customer_ID",
+
+    "Salesperson_ID",
+
+    "Product_ID",
+
+    "Region_ID"
+
 ]
 
 CATEGORICAL_COLUMNS = [
-    "Holiday_Flag"
+
+    "Customer_Name",
+
+    "Customer_Type",
+
+    "Industry",
+
+    "Region_Name",
+
+    "Zone",
+
+    "Salesperson_Name",
+
+    "Designation",
+
+    "Product_Name",
+
+    "Category",
+
+    "Payment_Method",
+
+    "Payment_Status",
+
+    "Delivery_Status",
+
+    "Demand_Level",
+
+    "Weekday"
+
 ]
 
 NUMERICAL_COLUMNS = [
-    "Temperature",
-    "Fuel_Price",
-    "CPI",
-    "Unemployment"
+
+    "Year",
+
+    "Month",
+
+    "Quarter",
+
+    "Day",
+
+    "Quantity",
+
+    "Manufacturing_Cost",
+
+    "Selling_Price",
+
+    "Subtotal",
+
+    "Discount_Percent",
+
+    "Discount_Amount",
+
+    "GST",
+
+    "Profit",
+
+    "Lead_Time_Days"
+
 ]
 
 # ==========================================================
@@ -62,12 +123,11 @@ TEST_SIZE = 0.20
 # Forecast Configuration
 # ==========================================================
 
-# Frequency:
 # D = Daily
 # W = Weekly
 # M = Monthly
 
-FORECAST_FREQUENCY = "W"
+FORECAST_FREQUENCY = "D"
 
 DEFAULT_FORECAST_HORIZON = 30
 
